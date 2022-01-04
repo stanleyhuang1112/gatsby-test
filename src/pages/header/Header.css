@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    display: block;
+}
+
+.header .navMenu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .navMenu li{
+    list-style: none;
+}
+
+.header .navMenu a{
+    display: block;
+    color: #555;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.header .navMenu a:hover{
+    padding-bottom: 7px;
+    border-bottom: 3px solid #00ffff;
+}
