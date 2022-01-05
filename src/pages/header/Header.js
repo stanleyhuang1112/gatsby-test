@@ -38,10 +38,12 @@ const Header = () => {
     
     return (
         <div className='header'>
-            <img src="#"/>
-            <ul className="navMenu">
-            {createMenu(navMenu)}                
-            </ul>            
+            <div className='container'>
+                <img src="#"/>
+                <ul className="navMenu">
+                    {createMenu(navMenu)}                
+                </ul>                            
+            </div>
         </div>
     )
   }
